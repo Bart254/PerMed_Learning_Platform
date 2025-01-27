@@ -1,0 +1,30 @@
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  padding: 120px 16px;
+}
+
+.w3-bar {
+  font-size: 16px;
+}
+
+button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+

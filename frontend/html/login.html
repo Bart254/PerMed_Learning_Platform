@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../css/form.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../scripts/form.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-logo"></div>
+    <div class="brand-title">PerMed</div>
+    <form id="login-form" class="inputs">
+      <label>Username/Email</label>
+      <input type="text" id="login-username-email" placeholder="username/email" required />
+      <label>Password</label>
+      <input type="password" id="login-password" placeholder="password" required />
+      <button type="submit">Login</button>
+    </form>
+    <a href="signup.html">Don't have an account? Sign up here</a>
+  </div>
+	<div id="topic-selection-modal" class="w3-modal" style="display:none;">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-red">
+      <span onclick="document.getElementById('topic-selection-modal').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+      <h2>Select Your Topics of Interest</h2>
+    </header>
+    <div class="w3-container">
+      <form id="topic-form">
+        <div id="topics-container"></div>
+        <button type="submit" class="w3-button w3-red w3-margin-top">Save Topics</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard - PerMed Learning Platform</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="../scripts/dashboard.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-large">
+      <a class="w3-bar-item w3-button w3-padding-large w3-white" href="dashboard.html">Dashboard</a>
+      <a class="w3-bar-item w3-button w3-padding-large" href="article.html">Articles</a>
+      <a class="w3-bar-item w3-button w3-padding-large" href="video.html">Videos</a>
+      <a class="w3-bar-item w3-button w3-padding-large w3-right" href="index.html">Logout</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-container w3-red w3-center w3-padding-64">
+    <h1 class="w3-margin w3-xxlarge">Welcome to Your Dashboard</h1>
+    <p>Track your progress and continue learning at your own pace.</p>
+  </header>
+
+  <!-- Dashboard Features -->
+  <div class="w3-container w3-padding-64">
+    <div class="w3-row-padding">
+      <!-- User Profile Summary -->
+      <div class="w3-third">
+        <div class="w3-card w3-padding w3-center">
+          <i class="fa fa-user-circle w3-text-red" style="font-size:100px;"></i>
+          <h3>Your Profile</h3>
+          <p><strong>Username:</strong> John Doe</p>
+          <p><strong>Topics:</strong> Hypertension, Diabetes</p>
+          <p><strong>Completed Quizzes:</strong> 3</p>
+        </div>
+      </div>
+      
+      <!-- Recommended Content -->
+      <div class="w3-twothird">
+        <div class="w3-card w3-padding">
+          <h3>Recommended for You</h3>
+          <ul id="recommended-content">
+            <!-- Content dynamically added using jQuery -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Learning Sections -->
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-half">
+        <div class="w3-card w3-padding">
+          <h3>Articles</h3>
+          <p>Discover the latest in medical learning.</p>
+          <a href="article.html" class="w3-button w3-red">View Articles</a>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-card w3-padding">
+          <h3>Videos</h3>
+          <p>Learn through engaging video content.</p>
+          <a href="video.html" class="w3-button w3-red">Watch Videos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-black w3-center w3-padding-16">
+    <p>&copy; 2025 PerMed Learning Platform. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+

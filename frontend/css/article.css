@@ -1,0 +1,23 @@
+#article-list {
+  list-style: none;
+  padding: 0;
+}
+
+#article-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#article-list li:last-child {
+  border-bottom: none;
+}
+
+#article-list a {
+  text-decoration: none;
+  color: #ff5722;
+}
+
+#article-list a:hover {
+  text-decoration: underline;
+}
+

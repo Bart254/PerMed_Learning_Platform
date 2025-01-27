@@ -1,0 +1,28 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h3, button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.w3-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#recommended-content li {
+  margin: 10px 0;
+  list-style: none;
+  font-size: 18px;
+}
+
+#recommended-content li a {
+  text-decoration: none;
+  color: #ff5722;
+}
+
+#recommended-content li a:hover {
+  text-decoration: underline;
+}
+
